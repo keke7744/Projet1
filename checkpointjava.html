@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Checkpoint java</title>
+	
+    
+   <script>
+	
+	function amine(){
+		document.getElementById("tt").style.fontWeight="900";
+	}
+	function achref()
+	{document.getElementById("tt").style.fontStyle="italic";}
+	function chibeni(){document.getElementById("tt").style.textDecoration="underline";}
+	function TCHYBA (){document.getElementById ("tt").style.fontSize=document.getElementById ("RR").value;
+}
+function tchitchou (){document.getElementById ("tt").style.fontFamily=document.getElementById ("SS").value;
+}
+	
+</script>
+
+</head>
+<body>
+	<strong><h1>Basic javascript</h1></strong>
+	<p id="tt">This checkpoint looks so easy but actually it's a little hard</p>
+	<button onclick="amine()">B</button><span><button onclick="chibeni()">underlined</button></span><button onclick="achref ()">I</button>
+	<br>
+	<br>
+	<br>
+	<select id="RR" onchange="TCHYBA()">
+		<option value="20px">20</option>
+		<option value="25px">25</option>
+	</select>
+	<select id="SS" onchange="tchitchou()">
+		<option value="Arial">Arial</option>
+		<option value="Impact"> Impact</option>
+	</select>
+
+
+
+</body>
+
+</html>
